@@ -67,18 +67,18 @@ const Resumed = () => {
                                     <div className="row align-items-center gx-5">
                                         <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                             <div className="bg-light p-4 rounded-4">
-                                                <div className="text-secondary fw-bolder mb-2">2015 - 2017</div>
+                                                <div className="text-secondary fw-bolder mb-2">2015 - 2016</div>
                                                 <div className="mb-2">
-                                                    <div className="small fw-bolder">Barnett College</div>
-                                                    <div className="small text-muted">Fairfield, NY</div>
+                                                    <div className="small fw-bolder">Benue state Polytrchnic</div>
+                                                    <div className="small text-muted">National Deploma</div>
                                                 </div>
                                                 <div className="fst-italic">
-                                                    <div className="small text-muted">Master's</div>
+                                                    <div className="small text-muted">degree</div>
                                                     <div className="small text-muted">Web Development</div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                        <div className="col-lg-8"><div>More work to cover laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -88,18 +88,18 @@ const Resumed = () => {
                                     <div className="row align-items-center gx-5">
                                         <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                             <div className="bg-light p-4 rounded-4">
-                                                <div className="text-secondary fw-bolder mb-2">2011 - 2015</div>
+                                                <div className="text-secondary fw-bolder mb-2">2012 - 2015</div>
                                                 <div className="mb-2">
-                                                    <div className="small fw-bolder">ULA</div>
-                                                    <div className="small text-muted">Los Angeles, CA</div>
+                                                    <div className="small fw-bolder">SSCE</div>
+                                                    <div className="small text-muted">Itabono Owuukpa</div>
                                                 </div>
                                                 <div className="fst-italic">
                                                     <div className="small text-muted">Undergraduate</div>
-                                                    <div className="small text-muted">Computer Science</div>
+                                                    <div className="small text-muted"> Science student</div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                        <div className="col-lg-8"><div>  more to cover amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@ const Resumed = () => {
                         <span className="mx-1">&middot;</span>
                         <a className="small" href="#!">Terms</a>
                         <span className="mx-1">&middot;</span>
-                        <a className="small" href="#!">Contact</a>
+                        <a className="small" href="#!">  Contact</a>
                     </div>
                 </div>
             </div>

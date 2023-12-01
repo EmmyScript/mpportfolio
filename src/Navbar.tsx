@@ -7,9 +7,10 @@ const Navbar = () => {
         <main className="flex-shrink-0">
           <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
             <div className="container px-5">
-              <a className="navbar-brand" href="index.html">
-                <span className="fw-bolder text-primary">Start Bootstrap</span>
-              </a>
+              
+                <img src="./image/mydj.jpg" alt="./image/johnny.png" className="rounded-circle" width={100} height={100}/>
+              
+              
               <button
                 className="navbar-toggler"
                 type="button"
@@ -26,13 +27,15 @@ const Navbar = () => {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                  <Link to= "/">
+                  
                   <li className="nav-item">
+                  <Link to= "/">
                     <a className="nav-link" href="index.html">
-                      Home
+                      Homes
                     </a>
+                    </Link>
                   </li>
-                  </Link>
+                  
                   <Link to ="resumed" >
 
                   

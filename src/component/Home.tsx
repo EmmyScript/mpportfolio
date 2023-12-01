@@ -1,6 +1,7 @@
-import {FaTwitter } from "react-icons/fa"
-import{FaSquareFacebook } from "react-icons/fa6"
+import {FaEye, FaTwitter } from "react-icons/fa"
+import{FaBandcamp, FaGun, FaHand, FaMusic, FaPersonDrowning, FaSquareFacebook } from "react-icons/fa6"
 import Footer from "../page/Footer";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
@@ -16,27 +17,31 @@ const Home = () => {
                         Design &middot; Development &middot; Marketing
                       </div>
                     </div>
-                    <div className="fs-3 fw-light text-muted">
-                      I can help your business to
+                    <div className="fs-3 fw-light bg-primary text-white">
+                      congrats DJ UNique my<FaHand/>and <FaEye/> on you!!<FaGun/>ur <FaBandcamp/>
                     </div>
                     <h1 className="display-3 fw-bolder mb-5">
                       <span className="text-gradient d-inline">
-                        Get online and grow fast
+                        booms and grow fast 
                       </span>
                     </h1>
                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                      <Link to ="/resumed">
                       <a
                         className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
                         href="resume.html"
                       >
                         Resume
                       </a>
+                      </Link>
+                      <Link to="project">
                       <a
                         className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
                         href="projects.html"
                       >
                         Projects
                       </a>
+</Link>
                     </div>
                   </div>
                 </div>
@@ -45,7 +50,7 @@ const Home = () => {
                     <div className="profile bg-gradient-primary-to-secondary">
                       <img
                         className="profile-img"
-                        src="image/johnny.PNG"
+                        src="image/finaye.jpg"
                         alt="..."
                      width={260} height={200} style={{objectFit:"cover"}} />
         
@@ -65,13 +70,15 @@ const Home = () => {
                       <span className="text-gradient d-inline">About Me</span>
                     </h2>
                     <p className="lead fw-light mb-4">
-                      My name is Start Bootstrap and I help brands grow.
+                      My Name Is Dj Unique 
                     </p>
                     <p className="text-muted">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Fugit dolorum itaque qui unde quisquam consequatur autem.
-                      Eveniet quasi nobis aliquid cumque officiis sed rem iure
-                      ipsa! Praesentium ratione atque dolorem?
+                      now the vision is fully activated am available for all event.
+
+                      Kudos to you for this remarkable achievement! ...
+                            Cheers to your well-deserved success! ...<FaPersonDrowning/>
+
+                      <span><FaMusic/></span>
                     </p>
                     <div className="d-flex justify-content-center fs-2 gap-4">
                       <a className="text-gradient" href="#!">

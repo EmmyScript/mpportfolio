@@ -22,7 +22,7 @@ const Project = () => {
                                             <h2 className="fw-bolder">Project Name 1</h2>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
                                         </div>
-                                        <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img className="img-fluid" src="./image/quote1.jpg" alt="..." width={50}/>
                                     </div>
                                 </div>
                             </div>
