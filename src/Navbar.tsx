@@ -4,11 +4,11 @@ const Navbar = () => {
   return (
     <>
       <div className="d-flex flex-column">
-        <main className="flex-shrink-0">
+
           <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
             <div className="container px-5">
               
-                <img src="./image/mydj.jpg" alt="./image/johnny.png" className="rounded-circle" width={100} height={100}/>
+                <img src="./image/johnny.PNG" alt="./image/johnny.png" className="rounded-circle" width={100} height={100}/>
               
               
               <button
@@ -26,7 +26,7 @@ const Navbar = () => {
                 className="collapse navbar-collapse"
                 id="navbarSupportedContent"
               >
-                <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                <ul className="  navs navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                   
                   <li className="nav-item">
                   <Link to= "/">
@@ -36,36 +36,42 @@ const Navbar = () => {
                     </Link>
                   </li>
                   
-                  <Link to ="resumed" >
+                 
 
                   
                   <li className="nav-item">
+                  <Link to ="resumed" >
                     <a className="nav-link" href="resume.html">
                       Resume
                     </a>
+                    </Link>
                   </li>
-                  </Link>
-                  <Link to="project">
+                  
+                 
                   <li className="nav-item">
+                  <Link to="project">
                     <a className="nav-link" href="projects.html">
                       Projects
                     </a>
+                    </Link>
                   </li>
-                  </Link>
-                  <Link to= "contact">
+                  
+                  
                   <li className="nav-item">
+                  <Link to= "contact">
                     <a className="nav-link" href="contact.html">
                       Contact
                     </a>
+                    </Link>
                   </li>
-                  </Link>
+                  
                 </ul>
               </div>
             </div>
           </nav>
 
           
-        </main>
+        
 
        
       </div>

@@ -117,8 +117,8 @@ const Contact = () => {
                       </div>
 
                       <div className="d-grid">
-                        <button
-                          className="btn btn-primary btn-lg disabled"
+                        <button onClick={()=> console.log("click")}
+                          className= "btn btn-primary btn-lg "
                           id="submitButton"
                           type="submit"
                         >

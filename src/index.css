@@ -299,3 +299,10 @@ button:not(:disabled),
   border-style: none;
 }
 */
+
+
+
+.nav-item a{
+  text-decoration: none;
+  font-size: larger;
+}
