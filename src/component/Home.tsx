@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 
 import { FaCableCar, FaRadio, FaSquareFacebook } from "react-icons/fa6";
-import Footer from "../page/Footer";
+
 import { Link } from "react-router-dom";
 const Home = () => {
   return (
@@ -24,18 +24,12 @@ const Home = () => {
               <div className="row gx-5 align-items-center">
                 <div className="col-xxl-5">
                   <div className="text-center text-xxl-start">
-                    <div className="badge bg-gradient-primary-to-secondary text-white mb-4">
-                      <div className="text-uppercase  bg-primary p-2">
-                        Design &middot; Development &middot; Marketing
-                      </div>
-                    </div>
+                   
 
-                    <div className="fs-3 fw-light">
-                      i can help your business to
-                    </div>
+                    
                     <h1 className="display-3 fw-bolder mb-5">
                       <span className="text-gradient d-inline">
-                        get online and grow fast
+                        hi, i'm emmy.i design & build website development.
                       </span>
                     </h1>
                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
@@ -123,7 +117,7 @@ const Home = () => {
                 <div className="col-xxl-8">
                   <div className="text-center my-5">
                     <h2 className="display-5 fw-bolder">
-                      <span className="text-gradient d-inline bg-success text-white">About Me</span>
+                      <span className="text-gradient d-inline bg-danger text-white">About Me</span>
                     </h2>
                   
                     <p className="text-muted">
@@ -194,15 +188,29 @@ const Home = () => {
                             
               
                             </div>
+                            
                             </div>
                             </div>
                             </div>
                             </div>
-                          </div>
-                          </div>
+                            
                           </div>
                           
-          <Footer />
+                          <div className="d-flex justify-content-between">
+              <a href="https://github.com/EmmyScript" target="_blank" className="btn btn-secondary text-white">
+                Github
+              </a>
+              
+             <Link to ="/contact">
+              <h3 className="btn btn-secondary">Contact me</h3>
+             </Link>
+                          </div>
+                          
+                          </div>
+                          </div>
+              
+              
+          
         </main>
       </body>
     </>
