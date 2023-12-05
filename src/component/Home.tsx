@@ -27,12 +27,12 @@ const Home = () => {
                    
 
                     
-                    <h1 className="display-3 fw-bolder mb-5">
+                    <h1 className="display-5 fw-bolder mb-5">
                       <span className="text-gradient d-inline">
-                        hi, i'm emmy.i design & build website development.
+                        Hi, I'm <span className="text-danger">Emmy.</span> i design & build website and mobile app.
                       </span>
                     </h1>
-                    <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                    <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-2">
                       <Link to="/resumed">
                         <a
                           className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
@@ -111,21 +111,21 @@ const Home = () => {
               </div>
             </div>
           </header>
-          <section className="bg-light py-5">
-            <div className="container px-5">
+          <section className="bg-light ">
+            <div className="container px-3">
               <div className="row gx-5 justify-content-center">
                 <div className="col-xxl-8">
-                  <div className="text-center my-5">
+                  <div className="text-center my-3">
                     <h2 className="display-5 fw-bolder">
-                      <span className="text-gradient d-inline bg-danger text-white">About Me</span>
+                      <span className="text-gradient d-inline bg-danger text-white p-2 ">About Me</span>
                     </h2>
                   
                     <p className="text-muted">
         
                       I'm a front end
                       developer with two years of experience in web
-                      development. I've worked on a variety of projects for
-                      clients in the retail, travel, and healthcare industries.
+                      development. I've worked on different variety of projects for
+                      clients.
                       I'm passionate about creating great user experiences and
                       have a strong understanding of usability and accessibility
                       standards.
@@ -185,7 +185,7 @@ const Home = () => {
                             <button className="btn btn-danger m-2 rounded-circle"><span><FaCableCar/></span> Travlling</button>
                             <button className="btn btn-success m-2 rounded-circle"><FaReadme/> Reading</button>
                             <button className="btn btn-warning m-2 rounded-circle text-white"><span><FaRadio/> Writing </span></button>
-                            
+                           
               
                             </div>
                             
