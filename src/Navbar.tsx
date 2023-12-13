@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="d-flex flex-column">
+      <div className=" sticky-top d-flex flex-column">
         
-        <nav className="  nav navbar navbar-expand-lg navbar-light  py-3">
+        <nav className=" sticky-top  nav navbar navbar-expand-lg navbar-light  py-3">
           <div className="container px-5">
             <div className="imgs ">
             <img

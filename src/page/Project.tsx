@@ -1,4 +1,4 @@
-
+ 
 import { Link } from "react-router-dom";
 
 const Project = () => {
@@ -46,7 +46,7 @@ const Project = () => {
                     is a digital tool designed to help users
                      capture, organize, jotting
                      and manage their notes and ideas.These apps often 
-                     include features such as title, tags and search functionality.
+                     include features such as title and tags which has search functionality.
                       
                     </p>
 
@@ -68,7 +68,7 @@ const Project = () => {
                   <div className="p-1">
                     <h2 className="fw-bolder">Shopping Cart</h2>
                     <p>
-                      A shopping cart is an online retailer's site is a piece of
+                       is an online retailer's site with a piece of
                       software that facilitates the purchase of a product or
                       service.
                     </p>
@@ -139,14 +139,14 @@ const Project = () => {
             <div className="card-body p-0">
                 <div className="d-flex align-items-center">
                   <div className="p-1">
-              <h3 className="fw-bolder">GAMES APP emmm</h3>
-              <p>static view of all type of games. with the following features search, sortby genres</p>
+              <h3 className="fw-bolder">Split Bill</h3>
+              <p>split-bill help a user to selected a friend and share the </p>
             <a
-                      href="https://taleted-game.netlify.app"
+                      href="https://spilitbill.netlify.app"
                       target="_blank"
                       className="btn btn-primary"
                     >
-                      game app 
+                      Split-Bill
                     </a>
                     
 </div>
@@ -156,132 +156,62 @@ const Project = () => {
                     </div>
 
                     <div className="col-md-2 m-1 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <h3>GAMES APP</h3>
-              <p>static view of all type of games. with the following features search, sortby genres</p>
+              <h3>E-commerce APP</h3>
+              <p>to display difference activites</p>
             <a
-                      href="https://taleted-game.netlify.app"
+                      href="https://jerryecommerce.netlify.app"
                       target="_blank"
                       className="btn btn-primary"
                     >
-                      game app emmy
+                      jerryecommerces
                     </a>
 
                     </div>
 
                     <div className="col-md-2 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <h3>GAMES APP</h3>
-              <p>static view of all type of games. with the following features search, sortby genres</p>
+              <h3>Currency Converter</h3>
+              <p>it help a user  to convert money from one Currency to other domination</p>
             <a
-                      href="https://taleted-game.netlify.app"
+                      href="https://dollarconv.netlify.app"
                       target="_blank"
                       className="btn btn-primary"
                     >
-                      game app
+                      Currency
                     </a>
 
                     </div>
 
                     <div className="col-md-2 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <h3>GAMES APP</h3>
+              <h3>E-commerce ShoppingCart</h3>
               <p>static view of all type of games. with the following features search, sortby genres
-                ggggggggggggggggggggggggggggggggggggguuuuuuuuuuuuuiiiiiiiiiiiiiiiiiiiioooooooooooooooooooooooooooooooo
+                
               </p>
             <a
-                      href="https://taleted-game.netlify.app"
+                      href="https://addvanceshoppingcart.netlify.app"
                       target="_blank"
                       className="btn btn-primary"
                     >
-                      game app
+                      AddtoCart
                     </a>
 
                     </div>
 
                     <div className="col-md-2 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <h3>GAMES APP</h3>
-              <p>static view of all type of games. with the following features search, sortby genres
-                ggggggggggggggggggggggggggggggggggggguuuuuuuuuuuuuiiiiiiiiiiiiiiiiiiiioooooooooooooooooooooooooooooooo
+              <h3>Pag-Error</h3>
+              <p>static view of  pag errors message
+                
               </p>
             <a
-                      href="https://taleted-game.netlify.app"
+                      href="https://pag404.netlify.app"
                       target="_blank"
                       className="btn btn-primary w-50 mb-5 justify-content-center"
                     >
-                      game app
+                      page-error
                     </a>
 
                     </div>
 
-                    <div className=" col-md-2 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <div className="card-body p-0">
-                <div className="d-flex align-items-center">
-                  <div className="p-5">
-                    <h2 className="fw-bolder">E-commerce Shopping Cart</h2>
-                    <p>
-                      A shopping cart is an online retailer's site is a piece of
-                      software that facilitates the purchase of a product or
-                      service.
-                    </p>
-                    <a
-                      href="https://userexprience.netlify.app"
-                      target="_blank"
-                      className="btn btn-primary"
-                    >
-                      Shopping-Cart
-                    </a>
-                  </div>
-                </div>
-              </div>
-
               
-            </div>
-
-            <div className=" col-md-2 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <div className="card-body p-0">
-                <div className="d-flex align-items-center">
-                  <div className="p-5">
-                    <h2 className="fw-bolder">E-commerce Shopping Cart</h2>
-                    <p>
-                      A shopping cart is an online retailer's site is a piece of
-                      software that facilitates the purchase of a product or
-                      service.
-                    </p>
-                    <a
-                      href="https://userexprience.netlify.app"
-                      target="_blank"
-                      className="btn btn-primary"
-                    >
-                      Shopping-Cart
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              
-            </div>
-
-            <div className=" col-md-2 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <div className="card-body p-0">
-                <div className="d-flex align-items-center">
-                  <div className="p-5">
-                    <h2 className="fw-bolder">E-commerce Shopping Cart</h2>
-                    <p>
-                      A shopping cart is an online retailer's site is a piece of
-                      software that facilitates the purchase of a product or
-                      service.
-                    </p>
-                    <a
-                      href="https://userexprience.netlify.app"
-                      target="_blank"
-                      className="btn btn-primary"
-                    >
-                      Shopping-Cart
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              
-            </div>
           </div>
         </div>
       </section>
@@ -290,7 +220,7 @@ const Project = () => {
         <div className="container px-5 my-5">
           <div className="text-center">
             <h2 className="display-4 fw-bolder mb-4">
-              Let's build something together
+            Am available at any time.
             </h2>
             <Link to="/contact">
               <a
