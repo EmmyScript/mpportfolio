@@ -310,3 +310,9 @@ button:not(:disabled),
  .nav{
   background-color: #fff;
  }
+ .apps{
+  overflow: hidden;
+  flex-wrap: nowrap;
+  white-space-trim:inherit;
+  background-color: red;
+ }

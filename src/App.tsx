@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <div className="container-fliud bg-primary">
+    <div className=" apps container-fliud bg-primary">
       <Navbar/>
       
       <Routes>

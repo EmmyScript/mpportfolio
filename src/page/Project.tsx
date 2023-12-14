@@ -13,7 +13,38 @@ const Project = () => {
           </div>
           
           <div className="row   justify-content-between ">
+
+            
+          <div className="col-md-2 card overflow-hidden shadow rounded-4 border-0 mb-2">
+
+          <div className="card-body p-0">
+                <div className="d-flex align-items-center">
+                  <div className="p-1">
+              <h3 className="fw-bolder">E-commerce ShoppingCart</h3>
+              <p>  
+               It facilitates the
+               transaction between a buyer and seller.to
+                showcase products, and online customers make 
+              selections. and paid form the items order.
+                
+              </p>
+            <a
+                      href="https://redirectshop.netlify.app"
+                      target="_blank"
+                      className="btn btn-primary"
+                    >
+                      AddtoCart
+                    </a>
+
+                    </div>
+        
+        </div>
+        </div>
+        </div>
+        
             <div className=" col-md-2 m-1 card overflow-hidden shadow rounded-4 border-0 mb-2 ">
+
+
               <div className="card-body p-0">
                 <div className="d-flex align-items-center">
                   <div className="p-1">
@@ -53,7 +84,7 @@ const Project = () => {
                     <a
                       href="https://idokocreatenoteapp.netlify.app"
                       target="_blank"
-                      className="btn btn-primary text-white"
+                      className="btn btn-primary text-white mb-5 "
                     >
                       note-taking
                     </a>
@@ -140,7 +171,13 @@ const Project = () => {
                 <div className="d-flex align-items-center">
                   <div className="p-1">
               <h3 className="fw-bolder">Split Bill</h3>
-              <p>split-bill help a user to selected a friend and share the </p>
+              <p>
+              it help you to keep track of
+               your shared expenses.
+               by creating  group with friend.
+                The bill sharing app automatically calculates everyone
+                share and distributes the expenses accordingly.
+                 </p>
             <a
                       href="https://spilitbill.netlify.app"
                       target="_blank"
@@ -156,20 +193,29 @@ const Project = () => {
                     </div>
 
                     <div className="col-md-2 m-1 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <h3>E-commerce APP</h3>
-              <p>to display difference activites</p>
+                    <div className="card-body p-0">
+                <div className="d-flex align-items-center">
+                  <div className="p-1">
+              <h3 className="fw-bolder">E-commerce pizza-items</h3>
+              <p>static view of pizza list and with logic of disabled sold-out </p>
             <a
-                      href="https://jerryecommerce.netlify.app"
+                      href="https://ecommercepizza.netlify.app"
                       target="_blank"
                       className="btn btn-primary"
                     >
-                      jerryecommerces
+                      pizza-item
                     </a>
-
+</div>
+</div>
+</div>
                     </div>
 
                     <div className="col-md-2 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <h3>Currency Converter</h3>
+
+                    <div className="card-body p-0">
+                <div className="d-flex align-items-center">
+                  <div className="p-1">
+              <h3 className="fw-bolder">Currency Converter</h3>
               <p>it help a user  to convert money from one Currency to other domination</p>
             <a
                       href="https://dollarconv.netlify.app"
@@ -178,37 +224,31 @@ const Project = () => {
                     >
                       Currency
                     </a>
-
+</div>
+</div>
+</div>
                     </div>
 
-                    <div className="col-md-2 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <h3>E-commerce ShoppingCart</h3>
-              <p>static view of all type of games. with the following features search, sortby genres
-                
-              </p>
-            <a
-                      href="https://addvanceshoppingcart.netlify.app"
-                      target="_blank"
-                      className="btn btn-primary"
-                    >
-                      AddtoCart
-                    </a>
-
-                    </div>
 
                     <div className="col-md-2 card overflow-hidden shadow rounded-4 border-0 mb-2">
-              <h3>Pag-Error</h3>
+              <h3 className="fw-bolder">Pag-Error</h3>
+
+              <div className="card-body p-0">
+                <div className="d-flex align-items-center">
+                  <div className="p-1">
               <p>static view of  pag errors message
                 
               </p>
             <a
                       href="https://pag404.netlify.app"
                       target="_blank"
-                      className="btn btn-primary w-50 mb-5 justify-content-center"
+                      className="btn btn-primary  mb-5 justify-content-center"
                     >
                       page-error
                     </a>
-
+</div>
+</div>
+</div>
                     </div>
 
               
