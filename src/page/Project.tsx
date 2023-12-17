@@ -20,12 +20,12 @@ const Project = () => {
           <div className="card-body p-0">
                 <div className="d-flex align-items-center">
                   <div className="p-1">
-              <h3 className="fw-bolder">E-commerce ShoppingCart</h3>
+              <h3 className="fw-bolder">E-commerce Shopping-Cart</h3>
               <p>  
                It facilitates the
-               transaction between a buyer and seller.to
-                showcase products, and online customers make 
-              selections. and paid form the items order.
+               transaction between a buyer and seller.
+                the customers make 
+              selections and paid form the items order.
                 
               </p>
             <a
@@ -51,8 +51,8 @@ const Project = () => {
                     <h2 className="fw-bolder">Todo-List</h2>
                     <p>
                 
-                      A to-do list is a simple tool used to keep track of tasks that need to be completed.
-                       It helps individuals organize their priorities, 
+                       It's  used to keep track of tasks that need to be completed.
+                       and
                        manage their time effectively, and stay focused on their goals.
                     </p>
                     <a
@@ -60,7 +60,7 @@ const Project = () => {
                       target="_blank"
                       className="btn btn-primary"
                     >
-                      Todo app
+                      Todo-List
                     </a>
                   </div>
                 </div>
@@ -74,10 +74,11 @@ const Project = () => {
                     <h2 className="fw-bolder"> Note-Taking</h2>
                     <p>
 
-                    is a digital tool designed to help users
-                     capture, organize, jotting
-                     and manage their notes and ideas.These apps often 
-                     include features such as title and tags which has search functionality.
+                    is a modern way to 
+                    
+                     capture, organize and jotting. 
+                     These apps often 
+                     include features such as title and tags which has <span className="text-danger fw-bolder">Search</span>  functionality.
                       
                     </p>
 

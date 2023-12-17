@@ -219,7 +219,7 @@ const Resumed = () => {
             </div>
             <div className="col-6">
              
-              <span className="mx-1">&middot;</span>
+              <span className="mx-1"></span>
               <Link to ="/contact">
               <a className="small btn btn-primary" href="#!">
                 {" "}

@@ -14,6 +14,7 @@ import {
 import { FaCableCar, FaRadio, FaSquareFacebook } from "react-icons/fa6";
 
 import { Link } from "react-router-dom";
+ 
 const Home = () => {
   return (
     <>
@@ -61,7 +62,7 @@ const Home = () => {
                         alt="..."
                         width={260}
                         height={200}
-                        style={{ objectFit: "cover" }}
+                        style= {{ objectFit: "cover" }}
                       />
                       <h3> <b> IDOKO EMMANUEL</b></h3>
                       <label className="text-danger">Lagos, Nigeria</label>
@@ -117,7 +118,7 @@ const Home = () => {
                 <div className="col-xxl-8">
                   <div className="text-center my-3">
                     <h2 className="display-5 fw-bolder">
-                      <span className="text-gradient d-inline bg-danger text-white p-2 ">About Me</span>
+                      <span className="text-gradient d-inline badge rounded-pill  bg-danger text-white p-2 ">About Me</span>
                     </h2>
                   
                     <p className="text-muted">
@@ -213,6 +214,9 @@ const Home = () => {
           
         </main>
       </body>
+
+      
+      
     </>
   );
 };
