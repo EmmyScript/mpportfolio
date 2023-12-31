@@ -371,3 +371,7 @@ ul.list li {
   float: left;
   padding-left: 20px;
 }
+.nav-item{
+  
+  pointer-events:painted;
+}

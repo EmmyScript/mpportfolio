@@ -11,7 +11,7 @@ const Navbar = () => {
             <img
               src="./image/johnny.PNG"
               alt="./image/johnny.png"
-              className="rounded- circle"
+              className="rounded-circle"
               width={100}
               height={100}
               style={{objectFit:"cover"}}

@@ -10,6 +10,7 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
+import { GiHouse } from "react-icons/gi";
 
 import { FaCableCar, FaRadio, FaSquareFacebook } from "react-icons/fa6";
 
@@ -60,11 +61,11 @@ const Home = () => {
                         className="profile-img"
                         src="image/johnny.PNG"
                         alt="..."
-                        width={260}
+                        width={350}
                         height={200}
-                        style= {{ objectFit: "cover" }}
+                        style= {{ objectFit: "cover", border:"50px", borderRadius:"20px"}}
                       />
-                      <h3> <b> IDOKO EMMANUEL</b></h3>
+                      <h3> <b> IDOKO EMMANUEL O</b></h3>
                       <label className="text-danger">Lagos, Nigeria</label>
                       <p>Software Developer</p>
 
@@ -124,9 +125,9 @@ const Home = () => {
                     <p className="text-muted">
         
                       I'm a front end
-                      developer with two years of experience in web
+                      developer doing my internship in mobile app and web
                       development. I've worked on different variety of projects for
-                      clients.
+                      clients and reference purposes.
                       I'm passionate about creating great user experiences and
                       have a strong understanding of usability and accessibility
                       standards.
@@ -151,7 +152,7 @@ const Home = () => {
                   <div className="card-body p-5">
                     <div className="row align-items-center gx-5">
                     <h4 className="text-danger">SkILL</h4>
-                            <label className="muted">related to software development.</label>
+                            <label className="muted">Related to software development.</label>
                             
                       <div className="col text-center text-lg-start mb-4 mb-lg-0">
                         <div className="bg-light p-4 rounded-4">
@@ -177,7 +178,7 @@ const Home = () => {
                           <div className="card shadow border-0 rounded-4 mb-5 ">
                   <div className="card-body p-5">
                     <h5 className="text-danger">INTEREST</h5>
-                    <p>a few things i occupy myself with..</p>
+                    <p>A few things i occupy myself with..</p>
                     <div className="row align-items-center gx-5">
                       <div className="col text-center text-lg-start mb-4 mb-lg-0">
                         <div className="bg-light p-4 rounded-4">
@@ -198,12 +199,12 @@ const Home = () => {
                           </div>
                           
                           <div className="d-flex justify-content-between">
-              <a href="https://github.com/EmmyScript" target="_blank" className="btn btn-secondary text-white">
-                Github
+              <a href="https://github.com/EmmyScript" target="_blank" className="btn btn-primary text-white mb-4">
+                Github <span><GiHouse/></span>
               </a>
               
              <Link to ="/contact">
-              <h3 className="btn btn-secondary">Contact me</h3>
+              <h3 className="btn btn-warning text-white">Contact me</h3>
              </Link>
                           </div>
                           

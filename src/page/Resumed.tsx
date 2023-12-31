@@ -25,7 +25,7 @@ const Resumed = () => {
                       <div className="col text-center text-lg-start mb-4 mb-lg-0">
                         <div className="bg-light p-4 rounded-4">
                           <div className="text-primary fw-bolder mb-2">
-                            2022- Present
+                            2023- Present
                           </div>
                           <div className="small fw-bolder">Web Developer</div>
                           <div className="small text-muted">
@@ -37,8 +37,8 @@ const Resumed = () => {
                       <div className="col-lg-8">
                         <div>
                          
-                           I'm a front end developer with
-                          two years of experience in web development. I've
+                           I'm a front end developer doing my internship in mobile app
+                              and web development. I've
                           worked on a variety of projects for clients in the
                           retail, travel, and shopping cart . I'm
                           passionate about creating great user experiences and
@@ -54,7 +54,7 @@ const Resumed = () => {
               </section>
 
               <section>
-                <h2 className="text-secondary fw-bolder mb-4">Education</h2>
+                <h2 className="text-primary fw-bolder mb-4 ">Education</h2>
 
                 <div className="card shadow border-0 rounded-4 mb-5">
                   <div className="card-body p-5">
@@ -73,7 +73,7 @@ const Resumed = () => {
                             </div>
                           </div>
                           <div className="fst-italic">
-                            <div className="small text-muted">civil engineering</div>
+                            <div className="small text-muted">Civil engineering</div>
                             
                           </div>
                         </div>
@@ -126,7 +126,7 @@ const Resumed = () => {
                           <i className="bi bi-tools"></i>
                         </div>
                         <h3 className="fw-bolder mb-0">
-                          <span className="text-gradient d-inline">
+                          <span className="text-primary d-inline">
                             Professional Skills
                           </span>
                         </h3>
@@ -163,7 +163,7 @@ const Resumed = () => {
                           <i className="bi bi-code-slash"></i>
                         </div>
                         <h3 className="fw-bolder mb-0">
-                          <span className="text-gradient d-inline">
+                          <span className="text-primary d-inline">
                             Languages
                           </span>
                         </h3>
