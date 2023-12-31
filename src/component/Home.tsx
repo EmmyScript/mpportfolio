@@ -31,7 +31,8 @@ const Home = () => {
                     
                     <h1 className="display-5 fw-bolder mb-5">
                       <span className="text-gradient d-inline">
-                        Hi, I'm <span className="text-danger">Emmy.</span> i design & build website and mobile app.
+                        Hi, I'm <span className="text-danger"><img src="image/emy.jpg" alt="..." width={70} height={40}/> i </span>
+                           design & build website and mobile app.
                       </span>
                     </h1>
                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-2">
@@ -59,10 +60,10 @@ const Home = () => {
                     <div className="profile bg-gradient-primary-to-secondary">
                       <img
                         className="profile-img"
-                        src="image/johnny.PNG"
+                        src="image/smile.jpg"
                         alt="..."
                         width={350}
-                        height={200}
+                        height={300}
                         style= {{ objectFit: "cover", border:"50px", borderRadius:"20px"}}
                       />
                       <h3> <b> IDOKO EMMANUEL O</b></h3>

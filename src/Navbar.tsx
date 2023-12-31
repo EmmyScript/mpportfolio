@@ -9,8 +9,8 @@ const Navbar = () => {
           <div className="container px-5">
             <div className="imgs ">
             <img
-              src="./image/johnny.PNG"
-              alt="./image/johnny.png"
+              src="./image/action.jpg"
+              alt="./image/osi.png"
               className="rounded-circle"
               width={100}
               height={100}
@@ -65,6 +65,14 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ul>
+            </div>
+          </div>
+
+          <div className="scroll-container">
+            <div className="scroll-text">
+              <p className="bg-primary text-bg-dark">The future belongs to those who believe in the beauty of their dreams.</p>
+              <p>Happy new year</p>
+              <p className="bg-success"><b>2024</b></p>
             </div>
           </div>
         </nav>
