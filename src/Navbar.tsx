@@ -69,13 +69,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="scroll-container">
-            <div className="scroll-text">
-              <p className="bg-primary text-bg-dark ">The future belongs to those who believe in the beauty of their dreams.</p>
-              <p>Happy new year</p>
-              <p className="bg-success rounded-end-circle"><b>2024</b><ImHappy2 /></p>
-            </div>
-          </div>
+          
         </nav>
       </div>
     </>
