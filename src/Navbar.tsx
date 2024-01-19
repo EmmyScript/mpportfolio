@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ImHappy2 } from "react-icons/im";
+
 
 const Navbar = () => {
   return (
