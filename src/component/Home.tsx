@@ -20,7 +20,7 @@ const Home = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [" Hi! I'm Idoko", "Emmanuel o"],
+      strings: [" Hi! I'm Idoko", "Emmanuel o,"],
       typeSpeed: 200,
       backSpeed:50,
       startDelay: 20,
@@ -51,6 +51,7 @@ const Home = () => {
                         </span>
                         
                       </span>
+                    
                     I  design & build website applications.
                     </h1>
                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-2">

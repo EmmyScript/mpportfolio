@@ -129,7 +129,7 @@ const Project = () => {
                   <h3 className="fw-bolder">GAMES APP</h3>
                   <p>
                     static view of all type of games. with the following
-                    features search, sortby genres
+                    features search, sortby genres.
                   </p>
                   <a
                     href="https://taleted-game.netlify.app"

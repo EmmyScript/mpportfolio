@@ -27,7 +27,7 @@ const Resumed = () => {
                           <div className="text-primary fw-bolder mb-2">
                             2023- Present
                           </div>
-                          <div className="small fw-bolder">Web Developer</div>
+                          <div className="small fw-bolder">Web developer</div>
                           <div className="small text-muted">
                             Beginner
                           </div>
@@ -66,10 +66,10 @@ const Resumed = () => {
                           </div>
                           <div className="mb-2">
                             <div className="small fw-bolder">
-                              Benue state Polytrchnic
+                              Benue state polytrchnic
                             </div>
                             <div className="small text-muted">
-                              National Deploma
+                              National diploma
                             </div>
                           </div>
                           <div className="fst-italic">
@@ -94,9 +94,9 @@ const Resumed = () => {
                             2017-2022
                           </div>
                           <div className="mb-2">
-                            <div className="small fw-bolder">federal university of agricltural makurdi</div>
+                            <div className="small fw-bolder">Federal university of agricltural makurdi</div>
                             <div className="small text-muted">
-                              graduate 
+                              Graduate 
                             </div>
                           </div>
                           <div className="fst-italic">

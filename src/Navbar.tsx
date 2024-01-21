@@ -43,11 +43,11 @@ const Navbar = () => {
                     </a>
                   </Link>
                 </li>
-
+ 
                 <li className="nav-item">
                   <Link to="resumed">
                     <a className={routeLocations ===  "resumed" ?
-                    "nav-link underline-resumed" : "nav-link"} href="#!">
+                    "nav-link underline-me" : "nav-link"} href="#!">
                       Resume
                     </a>
                   </Link>
