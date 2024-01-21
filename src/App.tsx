@@ -8,11 +8,10 @@ import Project from "./page/Project"
 
 function App() {
   
-
   return (
     <>
-    <div className=" apps container-fliud bg-primary">
-      <Navbar/>
+    <>
+      <Navbar/> 
       
       <Routes>
         <Route path="/" element ={<Home/>}/>
@@ -21,7 +20,7 @@ function App() {
 
         <Route path="/contact" element ={<Contact/>}/>
       </Routes>
-    </div>
+    </>
     </>
   )
 }

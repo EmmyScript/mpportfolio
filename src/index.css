@@ -325,7 +325,7 @@ button:not(:disabled),
 }
 
 body{
-  background:#CCC;
+  background:#ffffff;
 }
 
 body,
@@ -426,4 +426,24 @@ ul.list li {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
   }
+}
+
+
+
+.underline-me{
+  border-bottom: solid red 3px;
+  border-left: solid red 3px;
+  border-radius:4px;
+  width:100%
+}
+.underline-me:hover {
+  border-bottom: solid #561eda 3px;
+  border-left: solid red 3px;
+  border-radius:4px;
+}
+
+.underline-resumed{
+  border-bottom: solid red 3px;
+  border-left: solid red 3px;
+  border-radius:4px;
 }

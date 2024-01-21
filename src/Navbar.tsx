@@ -1,23 +1,24 @@
-import { Link } from "react-router-dom";
-
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+
+  const routeLocations = useLocation().pathname.split("/")[1]
+ 
   return (
     <>
       <div className=" sticky-top d-flex flex-column">
-        
         <nav className=" sticky-top  nav navbar navbar-expand-lg navbar-light  py-3">
           <div className="container px-5">
             <div className="imgs ">
-            <img
-              src="./image/action.jpg"
-              alt="./image/osi.png"
-              className="rounded-circle"
-              width={100}
-              height={100}
-              style={{objectFit:"cover"}}
-            />
-</div>
+              <img
+                src="./image/action.jpg"
+                alt="./image/osi.png"
+                className="rounded-circle"
+                width={100}
+                height={100}
+                style={{ objectFit: "cover" }}
+              />
+            </div>
             <button
               className="navbar-toggler"
               type="button"
@@ -34,17 +35,19 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="  navs navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                <li className="nav-item">
+                <li className="nav-item" >
                   <Link to="/">
-                    <a className="nav-link" href="index.html">
-                      Homes
+                    <a className={routeLocations === "" ?
+                     "nav-link underline-me":"nav-link"} href="#!">
+                      Home
                     </a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link to="resumed">
-                    <a className="nav-link" href="resume.html">
+                    <a className={routeLocations ===  "resumed" ?
+                    "nav-link underline-resumed" : "nav-link"} href="#!">
                       Resume
                     </a>
                   </Link>
@@ -52,7 +55,8 @@ const Navbar = () => {
 
                 <li className="nav-item">
                   <Link to="project">
-                    <a className="nav-link" href="projects.html">
+                    <a className={routeLocations=== "project" ?
+                    "nav-link underline-me" : "nav-link"} href="#!">
                       Projects
                     </a>
                   </Link>
@@ -60,7 +64,8 @@ const Navbar = () => {
 
                 <li className="nav-item">
                   <Link to="contact">
-                    <a className="nav-link" href="contact.html">
+                    <a className={routeLocations === "contact" ?
+                    "nav-link underline-me" : "nav-link"} href="contact.html">
                       Contact
                     </a>
                   </Link>
@@ -68,8 +73,6 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-
-          
         </nav>
       </div>
     </>
