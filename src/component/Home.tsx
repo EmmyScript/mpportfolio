@@ -12,8 +12,9 @@ import { GiHouse } from "react-icons/gi";
 import { FaCableCar, FaRadio, FaSquareFacebook } from "react-icons/fa6";
 import Typed from "typed.js";
 
-import { Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import React from "react";
+
 
 const Home = () => {
   const el = React.useRef(null);
@@ -259,6 +260,7 @@ const Home = () => {
             </div>
           </div>
         </main>
+        
       </body>
     </>
   );
