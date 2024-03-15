@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="container px-5">
             <div className="imgs ">
               <img
-                src="./image/action.jpg"
+                src="./image/me.jpg"
                 alt="./image/osi.png"
                 className="rounded-circle"
                 width={100}

@@ -31,7 +31,7 @@ const Resumed = () => {
                     </div>
                     <div className="col-lg-8">
                       <div>
-                        I'm a  frontend developer am a part of terms that build
+                        I'm a  frontend developer am a part of teams that build
                         an Electronic Medical Record (EMR) is an electronic
                         version of a patient's medical history that is
                         maintained by the provider over time, and may include

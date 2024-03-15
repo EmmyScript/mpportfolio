@@ -53,7 +53,7 @@ const Home = () => {
                         
                       </span>
                     
-                    I  design & build website applications.
+                    I  design & build web applications.
                     </h1>
                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-2">
                       <Link to="/resumed">
@@ -80,7 +80,7 @@ const Home = () => {
                     <div className="profile bg-gradient-primary-to-secondary">
                       <img
                         className="profile-img"
-                        src="image/smile.jpg"
+                        src="image/myportfolio.jpg"
                         alt="..."
                         width={350}
                         height={300}
